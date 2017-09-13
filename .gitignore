@@ -1,7 +1,5 @@
+node_modules/*
 _site
 .sass-cache
 .jekyll-metadata
-node_modules/
-packge.json
-gulpfile.js
-yarn.lock
+Gemfile.lock
