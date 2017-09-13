@@ -1,5 +1,16 @@
----
----
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
 
-{% assign lang = site.data.languages[site.language] %}
-{% include layout.html %}
+  {% include sidebar.html %}
+
+  <main role="main">
+    <div class="content">
+      {{content}}
+    </div>
+  </main>
+
+{% include analytics.html %}
+</body>
+</html>
