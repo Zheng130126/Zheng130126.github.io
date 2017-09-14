@@ -21,7 +21,7 @@ Jacman 主题提供了丰富的配置属性，可以实现您对主题的自定�
 menu:
   主页: /
   归档: /archives
-  关于: /about
+	  关于: /about
 
 #### 控件
 widgets: 
