@@ -1,5 +1,12 @@
-_site
-.sass-cache
-.jekyll-metadata
+_site/*
+_theme_packages/*
 
-config.codekit
+Thumbs.db
+.DS_Store
+
+!.gitkeep
+
+.rbenv-version
+.rvmrc
+
+*.lock
